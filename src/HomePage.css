@@ -1,0 +1,242 @@
+.homepage {
+    text-align: center;
+}
+
+.homepage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1); /* Transparent background */
+    padding: 30px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.homepage-header .logo {
+    flex: 0 0 150px; /* Fixed size for the logo section */
+}
+
+.homepage-header .logo a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.homepage-header .logo a svg {
+    width: 32px;
+    height: 22px;
+}
+
+.homepage-header .logo a p {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    margin: 4px;
+}
+
+.homepage-header .nav-links {
+    flex: 1; /* Fills the rest of the space */
+    display: flex;
+    justify-content: center;
+}
+
+.homepage-header .nav-links a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    font-size: 1.2em;
+    font-weight: semi-bold;
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+
+.homepage-header .nav-links a:hover {
+    color: #033f80;
+}
+
+.homepage-content {
+    margin-top: 111px;
+    height: 1000px;
+}
+
+.book-lesson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.book-lesson .book-lesson-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 460px;
+    height: auto;
+    padding: 40px;
+}
+
+.book-lesson-text p {
+    text-align: left;
+    line-height: 1.67em;
+    font-size: 24px;
+    font-weight: semi-bold;
+}
+
+.book-lesson-text .book-lesson-button {
+    width: 165px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 19.6px;
+}
+
+.book-lesson-text .book-lesson-button:hover {
+    background-color: rgba(83, 83, 83, 0.9);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book-lesson .jets-image {
+    position: static;
+    width: 460px;
+    height: 420px;
+    overflow: hidden;
+    border: 4px solid rgb(98, 98, 98);
+    margin: 10px;
+}
+
+.book-lesson .jets-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.why-us {
+    margin-top: 80px;
+}
+
+.why-us .why-us-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.why-us .why-us-title h2 {
+    font-size: 56px;
+    margin: 25px 0;
+}
+
+.why-us .why-us-title .bar {
+    width: 80px;;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 21px;
+}
+
+.why-us .why-us-title .link-to-about {
+    width: 170px;
+    height: 55px;
+    background-color: rgb(26, 28, 119);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: semi-bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.why-us .why-us-title .link-to-about:hover {
+    background-color: rgb(213, 214, 246);
+    color: rgb(26, 28, 119);
+    cursor: pointer !important;
+}
+
+.why-us .benefits-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    background-color: rgb(243, 243, 243);
+    font-size: 20px;
+    text-align: center;
+    min-height: 267px;
+    overflow: hidden;
+}
+
+.why-us .benefits-panel div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 267px;
+}
+
+.why-us .benefits-panel svg {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    flex-direction: row;
+    padding-top: 80px;
+    background-color: rgb(213, 214, 246);
+    height: auto;
+    min-height: 500px;
+}
+
+.contact-us .contact-us-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    width: 35%;
+}
+
+.contact-us .contact-us-title h1 {
+    font-size: 32px;
+    margin: 25px 0;
+}
+
+.contact-us .contact-us-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    width: 65%;
+    margin-top: 40px;
+}
+
+.contact-us .contact-us-info div {
+    padding: 0 50px;
+}
+
+.contact-us .contact-us-info a {
+    text-decoration: underline;
+    color: black;
+}
+
+.contact-us .contact-us-info .info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
