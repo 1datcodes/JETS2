@@ -2,64 +2,6 @@
     text-align: center;
 }
 
-.homepage-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 1); /* Transparent background */
-    padding: 30px 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
-
-.homepage-header .logo {
-    flex: 0 0 150px; /* Fixed size for the logo section */
-}
-
-.homepage-header .logo a {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    text-decoration: none;
-}
-
-.homepage-header .logo a svg {
-    width: 32px;
-    height: 22px;
-}
-
-.homepage-header .logo a p {
-    font-size: 24px;
-    text-decoration: none;
-    color: black;
-    margin: 4px;
-}
-
-.homepage-header .nav-links {
-    flex: 1; /* Fills the rest of the space */
-    display: flex;
-    justify-content: center;
-}
-
-.homepage-header .nav-links a {
-    padding: 0 10px;
-    text-decoration: none;
-    color: black;
-    line-height: 30px;
-    font-size: 1.2em;
-    font-weight: semi-bold;
-    display: inline-block;
-    transition: color 0.3s ease-in-out;
-}
-
-.homepage-header .nav-links a:hover {
-    color: #033f80;
-}
-
 .homepage-content {
     margin-top: 111px;
     height: 1000px;
@@ -88,6 +30,12 @@
     font-weight: semi-bold;
 }
 
+.book-lesson-text .handy-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .book-lesson-text .book-lesson-button {
     width: 165px;
     height: 45px;
@@ -101,6 +49,25 @@
 }
 
 .book-lesson-text .book-lesson-button:hover {
+    background-color: rgba(83, 83, 83, 0.9);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.book-lesson-text .send-message-button {
+    width: 165px;
+    height: 45px;
+    margin-left: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 19.6px;
+}
+
+.book-lesson-text .send-message-button:hover {
     background-color: rgba(83, 83, 83, 0.9);
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
@@ -193,50 +160,3 @@
     object-fit: contain;
 }
 
-.contact-us {
-    display: flex;
-    justify-content: top;
-    align-items: top;
-    flex-direction: row;
-    padding-top: 80px;
-    background-color: rgb(213, 214, 246);
-    height: auto;
-    min-height: 500px;
-}
-
-.contact-us .contact-us-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    align-items: center;
-    width: 35%;
-}
-
-.contact-us .contact-us-title h1 {
-    font-size: 32px;
-    margin: 25px 0;
-}
-
-.contact-us .contact-us-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: top;
-    width: 65%;
-    margin-top: 40px;
-}
-
-.contact-us .contact-us-info div {
-    padding: 0 50px;
-}
-
-.contact-us .contact-us-info a {
-    text-decoration: underline;
-    color: black;
-}
-
-.contact-us .contact-us-info .info-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
