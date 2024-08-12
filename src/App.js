@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './HomePage';
-import About from './About';
+import HomePage from './HomePage.js';
+import About from './About.js';
 import './App.css';
 
 function App() {
