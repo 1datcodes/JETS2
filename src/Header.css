@@ -39,6 +39,7 @@
     flex: 1; /* Fills the rest of the space */
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .header .nav-links a {

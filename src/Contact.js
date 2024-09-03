@@ -9,8 +9,9 @@ const Contact = () => {
                 <p>ご質問などある場合はお気軽にご連絡ください</p>
             </div>
             <div className="contact-us-info">
-                <div>    
+                <div className="links">
                     <a href="/about">JETSについて</a>
+                    <a href="https://forms.gle/boZvNp3kJao3ZtqA6" target="_blank" rel="noreferrer noopener" aria-disabled="false">ボランティア活動</a>
                 </div>
                 <div className="info-section">
                     <a href="mailto:jets4hoshuko@gmail.com">jets4hoshuko@gmail.com</a>

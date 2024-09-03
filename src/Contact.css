@@ -40,6 +40,13 @@
     color: black;
 }
 
+.contact-us .contact-us-info .links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
 .contact-us .contact-us-info .info-section {
     display: flex;
     flex-direction: column;

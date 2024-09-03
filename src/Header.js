@@ -16,9 +16,9 @@ const Header = () => {
             </div>
             <div className="nav-links">
                 <nav className="nav-links">
-                    <a href="/home">Home</a>
-                    <a href="/about">About</a>
-                    <a href="#contact">Contact</a>
+                    <a href="/home">ホーム</a>
+                    <a href="/about">JETSについて</a>
+                    <a href="#contact">お問い合わせ</a>
                 </nav>
             </div>
         </header>
