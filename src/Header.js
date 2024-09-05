@@ -19,6 +19,8 @@ const Header = () => {
                     <a href="/home">ホーム</a>
                     <a href="/about">JETSについて</a>
                     <a href="#contact">お問い合わせ</a>
+                    <a href="https://forms.gle/boZvNp3kJao3ZtqA6" target="_blank" rel="noreferrer noopener" aria-disabled="false">ボランティア</a>
+                    {/* <a href="/volunteer">ボランティア</a> */}
                 </nav>
             </div>
         </header>

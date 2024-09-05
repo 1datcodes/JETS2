@@ -4,7 +4,7 @@
 
 .homepage-content {
     margin-top: 111px;
-    height: 1000px;
+    min-height: 1000px;
 }
 
 .book-lesson {
@@ -46,6 +46,7 @@
     align-items: center;
     text-decoration: none;
     line-height: 19.6px;
+    border-radius: 8px;
 }
 
 .book-lesson-text .book-lesson-button:hover {
@@ -65,6 +66,7 @@
     align-items: center;
     text-decoration: none;
     line-height: 19.6px;
+    border-radius: 8px;
 }
 
 .book-lesson-text .send-message-button:hover {
@@ -125,6 +127,7 @@
     font-size: 20px;
     font-weight: semi-bold;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 10px;
 }
 
 .why-us .why-us-title .link-to-about:hover {

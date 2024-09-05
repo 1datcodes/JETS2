@@ -12,8 +12,7 @@
 .contact-us .contact-us-title {
     display: flex;
     flex-direction: column;
-    justify-content: top;
-    align-items: center;
+    align-items: last baseline;
     width: 35%;
 }
 

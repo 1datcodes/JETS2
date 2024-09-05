@@ -3,6 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './HomePage.js';
 import About from './About.js';
+import Volunteer from './Volunteer.js';
 import WithFade from './WithFade.js';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={<FadedHomePage />} />
           <Route path="/home" element={<FadedHomePage />} />
           <Route path="/about" element={<FadedAboutPage />} />
+          <Route path="/volunteer" element={<Volunteer />} />
         </Routes>
       </div>
     </Router>
