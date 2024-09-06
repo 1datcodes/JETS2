@@ -1,53 +1,53 @@
 .contact-us {
-    display: flex;
-    justify-content: top;
-    align-items: top;
-    flex-direction: row;
-    padding-top: 80px;
-    background-color: rgb(213, 214, 246);
-    height: auto;
-    min-height: 300px;
+  display: flex;
+  justify-content: top;
+  align-items: top;
+  flex-direction: row;
+  padding-top: 80px;
+  background-color: rgb(213, 214, 246);
+  height: auto;
+  min-height: 300px;
 }
 
 .contact-us .contact-us-title {
-    display: flex;
-    flex-direction: column;
-    align-items: last baseline;
-    width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline;
+  width: 35%;
 }
 
 .contact-us .contact-us-title h1 {
-    font-size: 32px;
-    margin: 25px 0;
+  font-size: 32px;
+  margin: 25px 0;
 }
 
 .contact-us .contact-us-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: top;
-    width: 65%;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+  width: 65%;
+  margin-top: 40px;
 }
 
 .contact-us .contact-us-info div {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
 .contact-us .contact-us-info a {
-    text-decoration: underline;
-    color: black;
+  text-decoration: underline;
+  color: black;
 }
 
 .contact-us .contact-us-info .links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
 }
 
 .contact-us .contact-us-info .info-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
