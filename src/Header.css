@@ -64,8 +64,9 @@
   font-size: 36px;
   cursor: pointer;
   position: absolute;
+  color: #5a5151;
   top: 20px;
-  right: 120px;
+  right: calc(60px + 2vmin);
   z-index: 1000;
 }
 
