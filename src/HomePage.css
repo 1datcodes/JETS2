@@ -164,3 +164,61 @@
   height: 38px;
   object-fit: contain;
 }
+
+
+@media (max-width: 768px) {
+  .homepage-content {
+    padding: 20px;
+  }
+
+  .book-lesson .handy-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .book-lesson .handy-buttons a {
+    margin: 10px 0;
+  }
+
+  .book-lesson .book-lesson-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .book-lesson-text p {
+    font-size: calc(16px + 0.8vmin);
+  }
+
+  .jets-image {
+    display: none;
+    border: none;
+    margin: 0 0;
+  }
+
+  .jets-image img {
+    width: 0;
+    height: 0;
+  }
+
+  .why-us {
+    margin-top: 20px;
+  }
+
+  .why-us .why-us-title h2 {
+    font-size: 32px;
+  }
+
+  .why-us .benefits-panel {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .why-us .benefits-panel div {
+    min-height: auto;
+  }
+}

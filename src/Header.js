@@ -1,7 +1,13 @@
-import React from "react";
+import { React, useState} from "react";
 import "./Header.css";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <header className="header">
       <div className="logo">
@@ -29,7 +35,10 @@ const Header = () => {
           <p>JETS</p>
         </a>
       </div>
-      <div className="nav-links">
+      <button className="menu-button" onClick={toggleMenu}>
+        ☰
+      </button>
+      <div className={`nav-links ${menuOpen ? "open" : "close"}`}>
         <nav className="nav-links">
           <a href="/home">ホーム</a>
           <a href="/about">JETSについて</a>
