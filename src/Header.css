@@ -43,6 +43,7 @@
 }
 
 .header .nav-links a {
+  position: relative;
   padding: 0 10px;
   text-decoration: none;
   color: black;
@@ -53,8 +54,24 @@
   transition: color 0.3s ease-in-out;
 }
 
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #2d2d2d;
+  transition: width 0.1s ease-in-out, left 0.1s ease-in-out;
+}
+
 .header .nav-links a:hover {
   color: #033f80;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 .menu-button {
