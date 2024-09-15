@@ -166,7 +166,6 @@
   object-fit: contain;
 }
 
-
 @media (max-width: 768px) {
   .homepage-content {
     padding: 0 calc(20px + 2vmin);

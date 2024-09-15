@@ -69,20 +69,23 @@
   padding-right: 30px;
 }
 
-.founding-members, .tutors {
+.founding-members,
+.tutors {
   display: grid;
   width: 100%;
   padding-bottom: 20px;
 }
 
-.founding-members-intro, .tutors-intro {
+.founding-members-intro,
+.tutors-intro {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
   justify-content: flex-start;
 }
 
-.founding-members-intro > div, .tutors-intro > div {
+.founding-members-intro > div,
+.tutors-intro > div {
   /* flex: 1 1 max-content; */
   max-width: 400px;
   min-width: max-content;
@@ -216,4 +219,4 @@
     font-size: 16px;
     width: 100%;
   }
-} 
+}
