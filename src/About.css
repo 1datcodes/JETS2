@@ -3,7 +3,7 @@
   min-height: 1000px;
 }
 
-.about-content .about-intro {
+.about-intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,26 +11,27 @@
   padding: 50px 300px;
 }
 
-.about-content .about-intro h1 {
+.about-intro h1 {
   line-height: 1.5em;
   font-size: 24px;
 }
 
-.about-content .about-intro p {
+.about-intro p {
   line-height: 1.67em;
   font-size: 24px;
   font-weight: semi-bold;
   margin-top: 10px;
 }
 
-.about-content .about-intro img {
+.about-intro img {
   width: 930px;
   height: 515px;
   object-fit: cover;
   border: 4px solid rgb(98, 98, 98);
+  border-radius: 24px;
 }
 
-.about-content .members {
+.members {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -38,65 +39,91 @@
   margin-top: 50px;
 }
 
-.about-content .members .member-title {
+.member-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  width: 35%;
+  padding: 0 20px 0 30px;
+}
+
+.member-title h1 {
+  font-size: 48px;
+  margin: 10px;
+}
+
+.member-title p {
+  width: 80%;
+  line-height: 1.6em;
+  font-size: 20px;
+  text-align: left;
+}
+
+.member-intros {
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 35%;
-  margin-left: 75px;
-  padding: 10px;
+  padding-right: 30px;
 }
 
-.about-content .members .member-title h1 {
-  font-size: 32px;
-  margin-left: 10px;
-}
-
-.about-content .members .member-title p {
-  width: 80%;
-  line-height: 1.6em;
-  font-size: 18px;
-  text-align: left;
-}
-
-.about-content .members .member-intros {
-  width: 65%;
+.founding-members, .tutors {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
-  grid-gap: 20px;
-  margin: 10px 50px 50px 0;
-  text-align: left;
-  overflow: hidden;
+  width: 100%;
+  padding-bottom: 20px;
 }
 
-.about-content .members .member-intros h2 {
+.founding-members-intro, .tutors-intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: flex-start;
+}
+
+.founding-members-intro > div, .tutors-intro > div {
+  /* flex: 1 1 max-content; */
+  max-width: 400px;
+  min-width: max-content;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.member-intros h2 {
   font-size: 24px;
 }
 
-.about-content .members .member-intros p {
+.member-intros h3 {
+  font-size: 20px;
+}
+
+.member-intros p {
   line-height: 1.6em;
   font-size: 16px;
   width: 333px;
 }
 
-.about-content .members .member-intros img {
+.member-intros img {
   width: 333px;
   height: 333px;
   object-fit: cover;
+  border-radius: 50%;
 }
 
-.about-content .members .member-intros .funtime {
+/* .about-content .members .member-intros .funtime {
   padding-top: 70px;
 }
 
 .about-content .members .member-intros .funtime p {
   font-size: 24px;
   text-align: center;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about-content {
     margin-top: 111px;
     min-height: 1000px;
@@ -186,4 +213,4 @@
     height: 100%;
     object-fit: cover;
   }
-} 
+}  */

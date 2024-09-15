@@ -7,7 +7,9 @@ import "./About.css";
 import ikkei_img from "./images/ikkei.jpg";
 import nobu_img from "./images/nobu.jpg";
 import michi_img from "./images/tanaka.jpg";
-import fun_img from "./images/us.jpg";
+import yamada_img from "./images/yamada.jpg";
+import hatayama_img from "./images/hatayama.jpg";
+// import fun_img from "./images/us.jpg";
 
 const About = () => {
   return (
@@ -37,39 +39,69 @@ const About = () => {
             </p>
           </div>
           <div className="member-intros">
-            <div className="ikkei">
-              <h2>安田一敬（やすだいっけい）</h2>
-              <img src={ikkei_img} alt="Ikkei" />
-              <p>
-                こんにちは、JETSの創設者です。補習校はこれで8年目になります。
-                僕はサッカーを真剣に取り組んでいるので、勉強との両立がとても大事でした。
-                習い事や現地校の宿題で、一人で補習校の宿題をする時間がない、
-                という生徒さんにJETSを作り上げました。よろしくお願いします。
-              </p>
+            <div className="founding-members">
+              <h1>創設メンバー</h1>
+              <div class="founding-members-intro">
+                <div className="ikkei">
+                  <h2>安田一敬（やすだいっけい）</h2>
+                  <img src={ikkei_img} alt="Ikkei" />
+                  <p>
+                    こんにちは、JETSの創設者です。補習校はこれで8年目になります。
+                    僕はサッカーを真剣に取り組んでいるので、勉強との両立がとても大事でした。
+                    習い事や現地校の宿題で、一人で補習校の宿題をする時間がない、
+                    という生徒さんにJETSを作り上げました。よろしくお願いします。
+                  </p>
+                </div>
+                <div className="nobu">
+                  <h2>石黒伸寿（いしぐろのぶひさ）</h2>
+                  <img src={nobu_img} alt="Nobu" />
+                  <p>
+                    初めまして、私は11年間補習校に通い、小学部の学習は、
+                    中高部の学習の土台であり、とても大切だと感じています。
+                    毎日のワークや音読、漢字学習などの補習校の宿題を続けるのはとても大変です。
+                    そこで、補習校の宿題のサポートをするためにJETSを立ち上げました。
+                  </p>
+                </div>
+                <div className="michi">
+                  <h2>田中道（たなかみち）</h2>
+                  <img src={michi_img} alt="Michi" />
+                  <p>
+                    こんにちは。私は補習校に小学1年生の時から通っているので保護者の方にとって
+                    ワークの丸つけや音読を聞いてあげることが大変だと理解しているつもりです。
+                    少しでもその重荷を肩代わりできればと思ってJETS創立に協力しました。
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="nobu">
-              <h2>石黒伸寿（いしぐろのぶひさ）</h2>
-              <img src={nobu_img} alt="Nobu" />
-              <p>
-                初めまして、私は11年間補習校に通い、小学部の学習は、
-                中高部の学習の土台であり、とても大切だと感じています。
-                毎日のワークや音読、漢字学習などの補習校の宿題を続けるのはとても大変です。
-                そこで、補習校の宿題のサポートをするためにJETSを立ち上げました。
-              </p>
+            <div className="tutors">
+              <h1>チューター</h1>
+              <div className="tutors-intro">
+                <div className="yamada">
+                  <h3>山田麻里衣（やまだまりい）</h3>
+                  <img src={yamada_img} alt="Yamada" />
+                  <p>
+                    こんにちは、私は小学2年生まで補習校を続けましたが、
+                    現地校とスポーツの両立が難しくなりやめてしまいましたが、
+                    中学でまた入って沢山の思い出を作れました。
+                    日本語と英語を両立している子たちをサポートや頑張っている子たちをサポート
+                    できるように頑張りたいです。よろしくお願いします。
+                  </p>
+                </div>
+                <div className="hatayama">
+                  <h3>畑山香穂（はたやまかほ）</h3>
+                  <img src={hatayama_img} alt="Hatayama" />
+                  <p>
+                    こんにちは。私は日本に小学6年生まで住んでいて、アメリカ住んで5年です。
+                    現地校と補習校の言語の違いから両立が難しいのをとても理解しているので、
+                    少しでもたくさんの生徒さんをお手伝いできたらなと思います。よろしくお願いします。
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="michi">
-              <h2>田中道（たなかみち）</h2>
-              <img src={michi_img} alt="Michi" />
-              <p>
-                こんにちは。私は補習校に小学1年生の時から通っているので保護者の方にとって
-                ワークの丸つけや音読を聞いてあげることが大変だと理解しているつもりです。
-                少しでもその重荷を肩代わりできればと思ってJETS創立に協力しました。
-              </p>
-            </div>
-            <div className="funtime">
+            {/* <div className="funtime">
               <img src={fun_img} alt="Fun" />
               <p>✌️✌️✌️</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
