@@ -1,18 +1,27 @@
 import React from "react";
 import Header from "./Header";
 import Contact from "./Contact";
-import jets_img from "./images/jets.jpg";
 import "./About.css";
 
-import default_img from "./images/default.png";
-import ikkei_img from "./images/ikkei.jpg";
-import nobu_img from "./images/nobu.jpg";
-import michi_img from "./images/tanaka.jpg";
-import yamada_img from "./images/yamada.jpg";
-import hatayama_img from "./images/hatayama.jpg";
-// import fun_img from "./images/us.jpg";
+const images = require.context("./images", false, /\.(png|jpe?g|svg)$/);
+const randomImages = require.context(
+  "./images/random",
+  false,
+  /\.(png|jpe?g|svg)$/,
+);
+const randomImagePaths = randomImages.keys().map(randomImages);
 
 const About = () => {
+  const importedImages = images.keys().reduce((acc, path) => {
+    acc[path.replace("./", "")] = images(path);
+    return acc;
+  }, {});
+
+  const getRandomImage = () => {
+    const randomIndex = Math.floor(Math.random() * randomImagePaths.length);
+    return randomImagePaths[randomIndex];
+  };
+
   return (
     <div className="About">
       <Header />
@@ -26,7 +35,7 @@ const About = () => {
             宿題のサポートをすることを目標して活動を行っております。
           </h1>
           <p>ようこそ、JETSへ</p>
-          <img src={jets_img} alt="JETS" />
+          <img src={importedImages["jets.jpg"]} alt="JETS" />
         </div>
         <div className="members">
           <div className="member-title">
@@ -42,10 +51,10 @@ const About = () => {
           <div className="member-intros">
             <div className="founding-members">
               <h1>創設メンバー</h1>
-              <div class="founding-members-intro">
+              <div className="founding-members-intro">
                 <div className="ikkei">
                   <h2>安田一敬（やすだいっけい）</h2>
-                  <img src={ikkei_img} alt="Ikkei" />
+                  <img src={importedImages["ikkei.jpg"]} alt="Ikkei" />
                   <p>
                     こんにちは、JETSの創設者です。補習校はこれで8年目になります。
                     僕はサッカーを真剣に取り組んでいるので、勉強との両立がとても大事でした。
@@ -55,7 +64,7 @@ const About = () => {
                 </div>
                 <div className="nobu">
                   <h2>石黒伸寿（いしぐろのぶひさ）</h2>
-                  <img src={nobu_img} alt="Nobu" />
+                  <img src={importedImages["nobu.jpg"]} alt="Nobu" />
                   <p>
                     初めまして、私は11年間補習校に通い、小学部の学習は、
                     中高部の学習の土台であり、とても大切だと感じています。
@@ -65,7 +74,7 @@ const About = () => {
                 </div>
                 <div className="michi">
                   <h2>田中道（たなかみち）</h2>
-                  <img src={michi_img} alt="Michi" />
+                  <img src={importedImages["tanaka.jpg"]} alt="Michi" />
                   <p>
                     こんにちは。私は補習校に小学1年生の時から通っているので保護者の方にとって
                     ワークの丸つけや音読を聞いてあげることが大変だと理解しているつもりです。
@@ -79,7 +88,7 @@ const About = () => {
               <div className="tutors-intro">
                 <div className="yamada">
                   <h3>山田麻里衣（やまだまりい）</h3>
-                  <img src={yamada_img} alt="Yamada" />
+                  <img src={importedImages["yamada.jpg"]} alt="Yamada" />
                   <p>
                     こんにちは、私は小学2年生まで補習校を続けましたが、
                     現地校とスポーツの両立が難しくなりやめてしまいましたが、
@@ -90,7 +99,7 @@ const About = () => {
                 </div>
                 <div className="hatayama">
                   <h3>畑山香穂（はたやまかほ）</h3>
-                  <img src={hatayama_img} alt="Hatayama" />
+                  <img src={importedImages["hatayama.jpg"]} alt="Hatayama" />
                   <p>
                     こんにちは。私は日本に小学6年生まで住んでいて、アメリカ住んで5年です。
                     現地校と補習校の言語の違いから両立が難しいのをとても理解しているので、
@@ -99,7 +108,7 @@ const About = () => {
                 </div>
                 <div className="ohashi">
                   <h3>大橋月香（おおはしるか）</h3>
-                  <img src={default_img} alt="Ohashi" />
+                  <img src={getRandomImage()} alt="Ohashi" />
                   <p>
                     こんにちは、私は幼稚部から補習校に通っています。
                     現地校の勉強、新体操の練習、補習校の宿題を掛け持ちするのはとても大変で、
@@ -109,10 +118,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="funtime">
-              <img src={fun_img} alt="Fun" />
-              <p>✌️✌️✌️</p>
-            </div> */}
           </div>
         </div>
       </div>
