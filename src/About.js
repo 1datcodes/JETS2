@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import jets_img from "./images/jets.jpg";
 import "./About.css";
 
+import default_img from "./images/default.png";
 import ikkei_img from "./images/ikkei.jpg";
 import nobu_img from "./images/nobu.jpg";
 import michi_img from "./images/tanaka.jpg";
@@ -94,6 +95,16 @@ const About = () => {
                     こんにちは。私は日本に小学6年生まで住んでいて、アメリカ住んで5年です。
                     現地校と補習校の言語の違いから両立が難しいのをとても理解しているので、
                     少しでもたくさんの生徒さんをお手伝いできたらなと思います。よろしくお願いします。
+                  </p>
+                </div>
+                <div className="ohashi">
+                  <h3>大橋月香（おおはしるか）</h3>
+                  <img src={default_img} alt="Ohashi" />
+                  <p>
+                    こんにちは、私は幼稚部から補習校に通っています。
+                    現地校の勉強、新体操の練習、補習校の宿題を掛け持ちするのはとても大変で、
+                    苦痛に思う時もありました。そのため、日本語の勉強が楽しいと思えるような時間を提供したいと思います。
+                    よろしくお願いします。
                   </p>
                 </div>
               </div>
