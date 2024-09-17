@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# JETS (Japanese English Tutor Service)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+**JETS (Japanese English Tutor Service)** is a volunteer organization created by high school students to support elementary students from supplementary schools (補習校) with their homework. We aim to assist children, especially when their parents are busy and unable to provide immediate help with schoolwork. Our service is dedicated to making learning more accessible and manageable for students.
 
-### `npm start`
+  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Purpose
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Our mission is to help children in supplementary schools with their homework in a supportive, friendly, and effective manner. We provide homework guidance through a web platform, where students can interact with volunteer tutors who help them through challenging subjects, focusing on enhancing their learning experience.
 
-### `npm test`
+  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+-  **Homework Support:** Volunteers assist students with their homework via this platform.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-  **User-Friendly Interface:** Built with React for an intuitive and responsive user experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-  **Illustrations:** We use visuals from いらすとや to make the platform fun and engaging for young users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  
 
-### `npm run eject`
+## Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-  **Frontend:** React.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-  **Illustrations:** いらすとや
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-  **Other Development:** All additional development and features were programmed in-house.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
 
-## Learn More
+## Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For inquiries, please contact us at: [jets4hoshuko@gmail.com](mailto:jets4hoshuko@gmail.com)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ #
+  
+## 概要
 
-### Code Splitting
+**JETS (Japanese English Tutor Service)** とは、高校生によって立ち上げられた、補習校の小学生を対象にした宿題サポートのためのボランティア団体です。特に保護者の方々が忙しい時などに、お子さんが学校の宿題を進めるお手伝いをすることを目指しています。このサービスを通じて、生徒たちが楽しく、そして効果的に学習できるようサポートします。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
 
-### Analyzing the Bundle Size
+## 目的
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+私たちのミッションは、補習校の生徒たちが、親しみやすく、効果的に宿題を進められるようサポートすることです。このウェブプラットフォームを通じて、生徒はボランティアチューターとやり取りし、難しい教科や問題を一緒に解決しながら学習を深めていくことができます。
 
-### Making a Progressive Web App
+  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 特徴 
 
-### Advanced Configuration
+-  **宿題サポート:** ボランティアがプラットフォームを通じて生徒たちの宿題をサポートします。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-  **使いやすいインターフェース:** React を使用して、直感的で応答性の高いユーザー体験を提供します。
 
-### Deployment
+-  **イラスト:** いらすとやのイラストを使用し、子どもたちが楽しめるデザインになっています。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+  
 
-### `npm run build` fails to minify
+## 技術スタック
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-  **フロントエンド:** React.js
+
+-  **イラスト:** いらすとや
+
+-  **その他開発:** すべての追加機能やプログラムは自作です。
+
+  
+
+## お問い合わせ
+
+お問い合わせは、[jets4hoshuko@gmail.com](mailto:jets4hoshuko@gmail.com) までお願いします。
