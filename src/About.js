@@ -118,7 +118,7 @@ const About = () => {
                 </div>
                 <div className="ushiyama">
                   <h3>牛山翔矢（うしやましょうや）</h3>
-                  <img src={getRandomImage()} alt="Ushiyama" />
+                  <img src={importedImages["ushiyama.jpg"]} alt="Ushiyama" />
                   <p>
                     始めまして、中学2年生に日本からアメリカに来て、三育に一年半、
                     補習校には高等部から入りました。日本からアメリカという大きな壁を乗り越え、
