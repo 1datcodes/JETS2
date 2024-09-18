@@ -153,6 +153,16 @@ const About = () => {
                     なので皆さんの気持ちに寄り添いながら勉強のお手伝いをしたいです。よろしくお願いします。
                   </p>
                 </div>
+                {/* <div className="kawai">
+                  <h3>河合静（かわいしずか）</h3>
+                  <img src={getRandomImage()} alt="Kawai" />
+                  <p></p>
+                </div>
+                <div className="oka">
+                  <h3>岡優那（おかゆうな）</h3>
+                  <img src={getRandomImage()} alt="Oka" />
+                  <p></p>
+                </div> */}
               </div>
             </div>
           </div>
