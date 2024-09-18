@@ -29,6 +29,7 @@
   object-fit: cover;
   border: 4px solid rgb(98, 98, 98);
   border-radius: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .members {
@@ -94,20 +95,29 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 3rem;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .member-intros h2 {
   font-size: 24px;
+  color: #333;
 }
 
 .member-intros h3 {
   font-size: 20px;
+  color: #333;
 }
 
 .member-intros p {
   line-height: 1.6em;
   font-size: 16px;
   width: 333px;
+  font-family: "Open Sans", sans-serif;
+  color: #3a3a3a;
+  text-align: justify;
 }
 
 .member-intros img {
@@ -115,16 +125,10 @@
   height: 333px;
   object-fit: cover;
   border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
 }
-
-/* .about-content .members .member-intros .funtime {
-  padding-top: 70px;
-}
-
-.about-content .members .member-intros .funtime p {
-  font-size: 24px;
-  text-align: center;
-} */
 
 @media (max-width: 768px) {
   .about-content {
@@ -133,7 +137,7 @@
     padding: 0 calc(20px + 2vmin);
   }
 
-  .about-content .about-intro {
+  .about-intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,26 +145,26 @@
     padding: 50px 20px;
   }
 
-  .about-content .about-intro h1 {
+  .about-intro h1 {
     line-height: 1.5em;
     font-size: 24px;
   }
 
-  .about-content .about-intro p {
+  .about-intro p {
     line-height: 1.67em;
     font-size: 24px;
     font-weight: semi-bold;
     margin-top: 10px;
   }
 
-  .about-content .about-intro img {
+  .about-intro img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border: 4px solid rgb(98, 98, 98);
   }
 
-  .about-content .members {
+  .members {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +172,7 @@
     margin-top: 50px;
   }
 
-  .about-content .members .member-title {
+  .member-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,16 +182,15 @@
     padding: 10px;
   }
 
-  .about-content .members .member-title h1 {
+  .member-title h1 {
     font-size: 32px;
     margin-left: 10px;
   }
 
-  .about-content .members .member-title p {
+  .member-title p {
     width: 80%;
     line-height: 1.6em;
     font-size: 18px;
-    text-align: center;
   }
 
   .member-intros {
@@ -202,21 +205,33 @@
     overflow: hidden;
   }
 
-  .about-content .members .member-intros h2 {
-    font-size: 24px;
-  }
-
-  .member-intros h3 {
-    font-size: 20px;
-  }
-
   .member-intros div {
     min-width: 0;
   }
 
-  .about-content .members .member-intros p {
+  .member-intros h2, .member-intros h3 {
+    font-size: 20px;
+  }
+
+  .member-intros p {
     line-height: 1.6em;
     font-size: 16px;
     width: 100%;
+  }
+
+  .member-intros img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .founding-members-intro,
+  .tutors-intro {
+    justify-content: center;
+  }
+
+  .founding-members-intro > div,
+  .tutors-intro > div {
+    width: 90%;
+    padding: 15px;
   }
 }
