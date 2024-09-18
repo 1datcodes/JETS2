@@ -137,7 +137,7 @@ const About = () => {
                 </div>
                 <div className="namekawa">
                   <h3>滑川佳祐（なめかわけいすけ）</h3>
-                  <img src={importedImages['namekawa.jpg']} alt="Namekawa" />
+                  <img src={importedImages["namekawa.jpg"]} alt="Namekawa" />
                   <p>
                     初めまして。私は補習校に通い始めてまだ4ヶ月ほどですが、16年間日本で生活をしていて中学受験も経験しました。
                     現地校と補習校の両立が大変なのは私が1番感じていることなので、
@@ -146,7 +146,7 @@ const About = () => {
                 </div>
                 <div className="senba">
                   <h3>仙波歩乃佳（せんばほのか）</h3>
-                  <img src={importedImages['senba.jpg']} alt="Senba" />
+                  <img src={importedImages["senba.jpg"]} alt="Senba" />
                   <p>
                     こんにちは。私は中学3年生でアメリカに来たので、英語の勉強、現地校の勉強、補習校の勉強、
                     スポーツなどと色々なことを両立するのに苦戦していた時期がありました。

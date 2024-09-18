@@ -209,7 +209,8 @@
     min-width: 0;
   }
 
-  .member-intros h2, .member-intros h3 {
+  .member-intros h2,
+  .member-intros h3 {
     font-size: 20px;
   }
 
