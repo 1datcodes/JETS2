@@ -153,12 +153,16 @@ const About = () => {
                     なので皆さんの気持ちに寄り添いながら勉強のお手伝いをしたいです。よろしくお願いします。
                   </p>
                 </div>
-                {/* <div className="kawai">
+                <div className="kawai">
                   <h3>河合静（かわいしずか）</h3>
                   <img src={getRandomImage()} alt="Kawai" />
-                  <p></p>
+                  <p>
+                    こんにちは。私は小学2年生から補習校に通い、5年生から並行してENA でもクラスをとっています。
+                    マーチングバンドでの活動もあり、大変に思う毎日です。けれど、すべて苦しいだけのことではありません。
+                    生徒さんにもそう思ってもらえるよう、お手伝いをしたいです。よろしくお願いします。
+                  </p>
                 </div>
-                <div className="oka">
+                {/* <div className="oka">
                   <h3>岡優那（おかゆうな）</h3>
                   <img src={getRandomImage()} alt="Oka" />
                   <p></p>
