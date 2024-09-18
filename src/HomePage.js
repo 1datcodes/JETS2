@@ -187,8 +187,8 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <Contact />
       </section>
+      <Contact />
     </div>
   );
 };
