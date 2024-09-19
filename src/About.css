@@ -86,8 +86,7 @@
   justify-content: flex-start;
 }
 
-.founding-members-intro > div,
-.tutors-intro > div {
+.profile {
   flex: 1 1 fit-content;
   max-width: 350px;
   /* min-width: max-content; */

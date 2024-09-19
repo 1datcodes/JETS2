@@ -52,7 +52,7 @@ const About = () => {
             <div className="founding-members">
               <h1>創設メンバー</h1>
               <div className="founding-members-intro">
-                <div className="ikkei">
+                <div className="profile ikkei">
                   <h2>安田一敬（やすだいっけい）</h2>
                   <img src={importedImages["ikkei.jpg"]} alt="Ikkei" />
                   <p>
@@ -62,7 +62,7 @@ const About = () => {
                     という生徒さんにJETSを作り上げました。よろしくお願いします。
                   </p>
                 </div>
-                <div className="nobu">
+                <div className="profile nobu">
                   <h2>石黒伸寿（いしぐろのぶひさ）</h2>
                   <img src={importedImages["nobu.jpg"]} alt="Nobu" />
                   <p>
@@ -72,7 +72,7 @@ const About = () => {
                     そこで、補習校の宿題のサポートをするためにJETSを立ち上げました。
                   </p>
                 </div>
-                <div className="michi">
+                <div className="profile michi">
                   <h2>田中道（たなかみち）</h2>
                   <img src={importedImages["tanaka.jpg"]} alt="Michi" />
                   <p>
@@ -86,7 +86,7 @@ const About = () => {
             <div className="tutors">
               <h1>チューター</h1>
               <div className="tutors-intro">
-                <div className="yamada">
+                <div className="profile yamada">
                   <h3>山田麻里衣（やまだまりい）</h3>
                   <img src={importedImages["yamada.jpg"]} alt="Yamada" />
                   <p>
@@ -97,7 +97,7 @@ const About = () => {
                     できるように頑張りたいです。よろしくお願いします。
                   </p>
                 </div>
-                <div className="hatayama">
+                <div className="profile hatayama">
                   <h3>畑山香穂（はたやまかほ）</h3>
                   <img src={importedImages["hatayama.jpg"]} alt="Hatayama" />
                   <p>
@@ -106,7 +106,7 @@ const About = () => {
                     少しでもたくさんの生徒さんをお手伝いできたらなと思います。よろしくお願いします。
                   </p>
                 </div>
-                <div className="ohashi">
+                <div className="profile ohashi">
                   <h3>大橋月香（おおはしるか）</h3>
                   <img src={getRandomImage()} alt="Ohashi" />
                   <p>
@@ -116,7 +116,7 @@ const About = () => {
                     よろしくお願いします。
                   </p>
                 </div>
-                <div className="ushiyama">
+                <div className="profile ushiyama">
                   <h3>牛山翔矢（うしやましょうや）</h3>
                   <img src={importedImages["ushiyama.jpg"]} alt="Ushiyama" />
                   <p>
@@ -126,7 +126,7 @@ const About = () => {
                     そこでワークや音読のチェックを少しでも手伝えたらなと思っています。よろしくお願いします。
                   </p>
                 </div>
-                <div className="koto">
+                <div className="profile koto">
                   <h3>古藤慶次（ことうけいじ）</h3>
                   <img src={getRandomImage()} alt="Koto" />
                   <p>
@@ -135,7 +135,7 @@ const About = () => {
                     よろしくお願いします。
                   </p>
                 </div>
-                <div className="namekawa">
+                <div className="profile namekawa">
                   <h3>滑川佳祐（なめかわけいすけ）</h3>
                   <img src={importedImages["namekawa.jpg"]} alt="Namekawa" />
                   <p>
@@ -144,7 +144,7 @@ const About = () => {
                     少しでも皆さんの役に立てるようにお手伝いさせて頂けたらなと思っています。よろしくお願いします。
                   </p>
                 </div>
-                <div className="senba">
+                <div className="profile senba">
                   <h3>仙波歩乃佳（せんばほのか）</h3>
                   <img src={importedImages["senba.jpg"]} alt="Senba" />
                   <p>
@@ -153,7 +153,7 @@ const About = () => {
                     なので皆さんの気持ちに寄り添いながら勉強のお手伝いをしたいです。よろしくお願いします。
                   </p>
                 </div>
-                <div className="kawai">
+                <div className="profile kawai">
                   <h3>河合静（かわいしずか）</h3>
                   <img src={getRandomImage()} alt="Kawai" />
                   <p>
@@ -162,13 +162,13 @@ const About = () => {
                     生徒さんにもそう思ってもらえるよう、お手伝いをしたいです。よろしくお願いします。
                   </p>
                 </div>
-                <div className="oka">
+                <div className="profile oka">
                   <h3>岡優那（おかゆうな）</h3>
                   <img src={importedImages['oka.jpg']} alt="Oka" />
                   <p>
                     はじめまして。私は補習校に12年間通っていて、中高部の生徒会長を務めさせていただいています。
                     これまで補習校をやめたいと思う時期もありましたが、続けられるようにサポートしてくれた両親に感謝しています。
-                    Kumonで英語と算数を小学生に３年間教えた経験があります。
+                    Kumonで英語と算数を小学生に3年間教えた経験があります。
                     補習校のお子さんがいずれ補習校に行ってよかったと思えるように全力でお手伝いさせてください。
                   </p>
                 </div>
