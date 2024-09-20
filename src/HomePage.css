@@ -14,10 +14,9 @@
   width: 100%;
 }
 
-.book-lesson .book-lesson-text {
+.book-lesson-text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   width: 460px;
   height: auto;
   padding: 40px;
@@ -30,53 +29,33 @@
   font-weight: semi-bold;
 }
 
-.book-lesson-text .handy-buttons {
+.handy-buttons {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-.handy-buttons > a {
+.book-lesson-button,
+.send-message-button {
+  width: 165px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  line-height: 19.6px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-.book-lesson-text .book-lesson-button {
-  width: 165px;
-  height: 45px;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  line-height: 19.6px;
-  border-radius: 8px;
-}
-
-.book-lesson-text .book-lesson-button:hover {
+.book-lesson-button:hover,
+.send-message-button:hover {
   background-color: rgba(83, 83, 83, 0.9);
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.book-lesson-text .send-message-button {
-  width: 165px;
-  height: 45px;
-  margin-left: 65px;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  line-height: 19.6px;
-  border-radius: 8px;
-}
-
-.book-lesson-text .send-message-button:hover {
-  background-color: rgba(83, 83, 83, 0.9);
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+  transform: scale(1.05);
 }
 
 .book-lesson .jets-image {
@@ -88,20 +67,18 @@
   border-radius: 24px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  object-fit: cover;
 }
 
 .book-lesson .jets-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .why-us {
   margin-top: 80px;
 }
 
-.why-us .why-us-title {
+.why-us-title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,19 +86,19 @@
   margin-bottom: 20px;
 }
 
-.why-us .why-us-title h2 {
+.why-us-title h2 {
   font-size: 56px;
   margin: 25px 0;
 }
 
-.why-us .why-us-title .bar {
+.bar {
   width: 80px;
   height: 2px;
   background-color: black;
   margin-bottom: 21px;
 }
 
-.why-us .why-us-title .link-to-about {
+.link-to-about {
   width: 170px;
   height: 55px;
   background-color: rgb(26, 28, 119);
@@ -135,39 +112,51 @@
   font-weight: semi-bold;
   transition:
     background-color 0.3s ease-in-out,
-    color 0.3s ease-in-out;
+    color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.why-us .why-us-title .link-to-about:hover {
+.link-to-about:hover {
   background-color: rgb(213, 214, 246);
   color: rgb(26, 28, 119);
   cursor: pointer !important;
+  transform: scale(1.05);
 }
 
-.why-us .benefits-panel {
+.benefits-panel {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, auto);
   gap: 20px;
-  background-color: rgb(243, 243, 243);
   font-size: 20px;
   text-align: center;
   min-height: 267px;
   overflow: hidden;
+  padding: 20px;
 }
 
-.why-us .benefits-panel div {
+.benefits-panel > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: auto;
   min-height: 267px;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+  padding: 20px;
 }
 
-.why-us .benefits-panel svg {
+.benefits-panel > div:hover {
+  transform: scale(1.04);
+}
+
+.benefits-panel svg {
   width: 38px;
   height: 38px;
   object-fit: contain;
