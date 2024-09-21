@@ -12,7 +12,7 @@ const HomePage = () => {
       <section className="homepage-content">
         <div className="book-lesson">
           <div className="book-lesson-text">
-            <p>サンノゼ補習校の算数・国語の宿題や勉強をサポートします</p>
+            <p>サンノゼ補習校小学部の算数・国語の宿題や勉強をサポートします</p>
             <div className="handy-buttons">
               <a
                 className="book-lesson-button"
@@ -137,7 +137,7 @@ const HomePage = () => {
                   ></path>
                 </g>
               </svg>
-              <h3>早いお客様への対応</h3>
+              <h3>素早い対応</h3>
             </div>
             <div>
               <svg
@@ -183,7 +183,7 @@ const HomePage = () => {
                   ></path>
                 </g>
               </svg>
-              <h3>補習校八年以上在籍</h3>
+              <h3>補習校８年以上在籍</h3>
             </div>
           </div>
         </div>
