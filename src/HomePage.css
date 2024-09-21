@@ -48,7 +48,9 @@
   line-height: 19.6px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transition:
+    background-color 0.3s ease-in-out,
+    transform 0.3s ease-in-out;
 }
 
 .book-lesson-button:hover,

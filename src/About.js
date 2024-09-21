@@ -11,12 +11,10 @@ const randomImages = require.context(
 );
 const randomImagePaths = randomImages.keys().map(randomImages);
 
-const memberData = 
-[
+const memberData = [
   {
     container: "founders",
-    members: 
-    [
+    members: [
       {
         className: "yasuda",
         name: "安田一敬（やすだいっけい）",
@@ -25,7 +23,7 @@ const memberData =
                   私は小さい頃からサッカーに真剣に取り組んできました。そのため、勉強とスポーツの両立
                   は何よりも大切だと感じています。
                   習い事や現地校の宿題で、ひとりで補習校の宿題をするのは大変だ
-                  という生徒さんの力になりたいとJETSを立上げました。よろしくお願いします。`
+                  という生徒さんの力になりたいとJETSを立上げました。よろしくお願いします。`,
       },
       {
         className: "ishiguro",
@@ -34,7 +32,7 @@ const memberData =
         message: `初めまして、私は11年間補習校に通い、小学部の学習は、
                   中高部の学習の土台であり、とても大切だと感じています。
                   しかし毎日のワークや音読、漢字学習などをひとりで続けるのはとても大変です。
-                  そこで、補習校の宿題のサポートをするためにJETSを立ち上げました。`
+                  そこで、補習校の宿題のサポートをするためにJETSを立ち上げました。`,
       },
       {
         className: "tanaka",
@@ -42,14 +40,13 @@ const memberData =
         image: "tanaka.jpg",
         message: `こんにちは。私は補習校に小学1年生の時から通っているので保護者の方にとって
                   ワークの丸つけや音読を聞いてあげることが大変だと理解しているつもりです。
-                  少しでもその重荷を肩代わりできればと思ってJETS創立に協力しました。`
-      }
-    ]
+                  少しでもその重荷を肩代わりできればと思ってJETS創立に協力しました。`,
+      },
+    ],
   },
   {
     container: "tutors",
-    members: 
-    [
+    members: [
       {
         className: "yamada",
         name: "山田麻里衣（やまだまりい）",
@@ -58,7 +55,7 @@ const memberData =
                   現地校とスポーツの両立が難しくなりやめてしまいました。
                   中学でまた補習校に入ってたくさんの思い出を作れました。
                   日本語と英語を両立して、頑張っている子たちをサポート
-                  したいと思っています。よろしくお願いします。`
+                  したいと思っています。よろしくお願いします。`,
       },
       {
         className: "hatayama",
@@ -66,7 +63,7 @@ const memberData =
         image: "hatayama.jpg",
         message: `こんにちは。私は日本に小学6年生まで住んでいて、アメリカに引っ越して来て5年です。
                   言語の違いから現地校と補習校の両立が難しいのを理解しているので、
-                  少しでも多くの生徒さんをお手伝いできたらなと思います。よろしくお願いします。`
+                  少しでも多くの生徒さんをお手伝いできたらなと思います。よろしくお願いします。`,
       },
       {
         className: "ohashi",
@@ -75,7 +72,7 @@ const memberData =
         message: `こんにちは、私は幼稚部から補習校に通っています。
                   現地校の勉強、新体操の練習、補習校の宿題を掛け持ちするのはとても大変で、
                   苦痛に思う時もありました。そのため、日本語の勉強が楽しいと思えるような時間を提供したいと思います。
-                  よろしくお願いします。`
+                  よろしくお願いします。`,
       },
       {
         className: "ushiyama",
@@ -84,7 +81,7 @@ const memberData =
         message: `始めまして、中学2年生で日本からアメリカに来て、三育に一年半、
                   補習校には高等部から入りました。日本からアメリカという大きな環境の変化を乗り越え、
                   現地校と補習校の勉強の両立はとても大変でした。しかし、それは大事なことだと強く思いました。
-                  そこでワークや音読のチェックを少しでも手伝えたらなと思っています。よろしくお願いします。`
+                  そこでワークや音読のチェックを少しでも手伝えたらなと思っています。よろしくお願いします。`,
       },
       {
         className: "koto",
@@ -93,7 +90,7 @@ const memberData =
         message: `こんにちは、補習校は8年目になります。サッカー、持病の治療、現地校の勉強や予定を
                   掛け持ちするのがとても大変でした。
                   それでも中高部でいろいろな思い出が作れました。
-                  日本語が楽しいと思えるようなお手伝いができたらいいなと思います。よろしくお願いします。`
+                  日本語が楽しいと思えるようなお手伝いができたらいいなと思います。よろしくお願いします。`,
       },
       {
         className: "namekawa",
@@ -101,7 +98,7 @@ const memberData =
         image: "namekawa.jpg",
         message: `初めまして。私は補習校に通い始めてまだ4ヶ月ほどですが、16年間日本で生活をしていて中学受験も経験しました。
                   現地校と補習校の両立が大変なのは私が1番感じていることなので、
-                  少しでも皆さんの役に立てるようにお手伝いさせて頂けたらなと思っています。よろしくお願いします。`
+                  少しでも皆さんの役に立てるようにお手伝いさせて頂けたらなと思っています。よろしくお願いします。`,
       },
       {
         className: "senba",
@@ -109,7 +106,7 @@ const memberData =
         image: "senba.jpg",
         message: `こんにちは。私は中学3年生でアメリカに来たので、英語の勉強、現地校の勉強、補習校の勉強、
                   スポーツなどと色々なことをするのに苦戦していた時期がありました。
-                  なので皆さんの気持ちに寄り添いながら勉強のお手伝いをしたいです。よろしくお願いします。`
+                  なので皆さんの気持ちに寄り添いながら勉強のお手伝いをしたいです。よろしくお願いします。`,
       },
       {
         className: "kawai",
@@ -117,7 +114,7 @@ const memberData =
         image: "",
         message: `こんにちは。私は小学2年生から補習校に通い、5年生から並行してENAでもクラスをとっています。
                   マーチングバンドでの活動もあり、大変に思う毎日です。けれど、すべて苦しいだけのことではありません。
-                  生徒さんにもそう思ってもらえるよう、お手伝いをしたいです。よろしくお願いします。`
+                  生徒さんにもそう思ってもらえるよう、お手伝いをしたいです。よろしくお願いします。`,
       },
       {
         className: "oka",
@@ -126,18 +123,18 @@ const memberData =
         message: `はじめまして。私は補習校に12年間通っていて、中高部の生徒会長を務めさせていただいています。
                   これまで補習校をやめたいと思う時期もありましたが、続けられるようにサポートしてくれた両親に感謝しています。
                   Kumonで英語と算数を小学生に3年間教えた経験があります。
-                  補習校のお子さんがいずれ補習校に通ってよかったと思えるように全力でお手伝いさせてください。`
-      }
-    ]
-  }
-]
+                  補習校のお子さんがいずれ補習校に通ってよかったと思えるように全力でお手伝いさせてください。`,
+      },
+    ],
+  },
+];
 
 const profiles = memberData.map((container) => {
   return {
     ...container,
     members: container.members.sort((a, b) => {
       return a.className.localeCompare(b.className);
-    })
+    }),
   };
 });
 
@@ -186,7 +183,14 @@ const About = () => {
                 {profiles[0].members.map((member, index) => (
                   <div key={index} className={`profile ${member.className}`}>
                     <h2>{member.name}</h2>
-                    <img src={member.image ? importedImages[member.image] : getRandomImage()} alt={member.className} />
+                    <img
+                      src={
+                        member.image
+                          ? importedImages[member.image]
+                          : getRandomImage()
+                      }
+                      alt={member.className}
+                    />
                     <p>{member.message}</p>
                   </div>
                 ))}
@@ -198,7 +202,14 @@ const About = () => {
                 {profiles[1].members.map((member, index) => (
                   <div key={index} className={`profile ${member.className}`}>
                     <h3>{member.name}</h3>
-                    <img src={member.image ? importedImages[member.image] : getRandomImage()} alt={member.className} />
+                    <img
+                      src={
+                        member.image
+                          ? importedImages[member.image]
+                          : getRandomImage()
+                      }
+                      alt={member.className}
+                    />
                     <p>{member.message}</p>
                   </div>
                 ))}

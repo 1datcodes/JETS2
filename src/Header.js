@@ -13,7 +13,7 @@ const Header = () => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
       setMenuOpen(false);
     }
-  }
+  };
 
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);

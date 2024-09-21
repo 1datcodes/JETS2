@@ -19,11 +19,19 @@ const Contact = () => {
           >
             ボランティア活動
           </a>
+          <a
+            href="https://forms.gle/NCWaLvhgjRAbiCwM8"
+            target="_blank"
+            rel="noreferrer noopener"
+            aria-disabled="false"
+          >
+            お問い合わせ
+          </a>
         </div>
-        <div className="info-section">
+        {/* <div className="info-section">
           <a href="mailto:jets4hoshuko@gmail.com">jets4hoshuko@gmail.com</a>
           <p>408-426-7267</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
