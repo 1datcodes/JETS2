@@ -9,7 +9,7 @@ const benefits = [
   {
     title: "やさしい高校生たち",
     description:
-      "経験豊富な補習校高校生が、小学生に寄り添い、１対１でサポートします。",
+      "経験豊富な補習校高校生が、小学生に寄り添い、１対１で丁寧にサポートします。",
     svg: (
       <svg
         preserveAspectRatio="xMidYMid meet"
@@ -36,7 +36,7 @@ const benefits = [
   {
     title: "いつでもできます！",
     description:
-      "それぞれのスケジュールに合わせて、オンラインでレッスンを受けることができます。",
+      "お子さまのスケジュールに合わせて、オンラインでレッスンを受けることができます。",
     svg: (
       <svg
         preserveAspectRatio="xMidYMid meet"
@@ -88,7 +88,7 @@ const benefits = [
   },
   {
     title: "素早い対応",
-    description: "質問などが合った場合、ご気軽にお問い合わせください。",
+    description: "お問い合わせには２４時間以内に対応します。",
     svg: (
       <svg
         preserveAspectRatio="xMidYMid meet"
