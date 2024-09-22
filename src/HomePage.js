@@ -140,9 +140,9 @@ const benefits = [
     ),
   },
   {
-    title: "補習校８年以上在籍",
+    title: "補習校在籍８年以上",
     description:
-      "私達は補習校小学部での経験を活かして小学部の生徒のサポートをしています。",
+      "私達は補習校小学部での経験を活かして生徒のサポートをしています。",
     svg: (
       <svg
         preserveAspectRatio="xMidYMid meet"

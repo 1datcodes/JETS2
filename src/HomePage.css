@@ -202,18 +202,18 @@
     gap: 1rem;
   }
 
-  .book-lesson .handy-buttons {
+  .handy-buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .book-lesson .handy-buttons a {
+  .handy-buttons a {
     margin: 10px 0;
   }
 
-  .book-lesson .book-lesson-text {
+  .book-lesson-text {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -231,31 +231,17 @@
     max-height: 300px;
   }
 
-  /* .jets-image {
-    display: none;
-    border: none;
-    margin: 0 0;
-  }
-
-  .jets-image img {
-    width: 0;
-    height: 0;
-  } */
-
   .why-us {
     margin-top: 20px;
   }
 
-  .why-us .why-us-title h2 {
+  .why-us-title h2 {
     font-size: 32px;
   }
 
-  .why-us .benefits-panel {
+  .benefits-panel {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
-
-  .why-us .benefits-panel div {
-    min-height: auto;
-  }
+  
 }
