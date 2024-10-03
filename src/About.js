@@ -162,7 +162,9 @@ const About = () => {
 
   const getRandomImage = () => {
     const randomIndex = Math.floor(Math.random() * randomImagePaths.length);
-    return randomImagePaths[randomIndex];
+    const selectedImage = randomImagePaths[randomIndex];
+    randomImagePaths.splice(randomIndex, 1);
+    return selectedImage;
   };
 
   return (
