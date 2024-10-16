@@ -191,7 +191,8 @@ const HomePage = () => {
             <div className="handy-buttons">
               <a
                 className="book-lesson-button"
-                href="https://forms.gle/VNosV8pXzE58j2A1A"
+                // href="https://forms.gle/VNosV8pXzE58j2A1A"
+                href="https://forms.gle/dVHZwfbN1aXi3MAv7" // Temporarily stopping any new bookings
                 target="_blank"
                 rel="noreferrer noopener"
                 aria-disabled="false"
